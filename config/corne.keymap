@@ -61,10 +61,10 @@
             // ---------------------------------------------------------------------------------------------------------
 
             bindings = <
-&kp ESCAPE    &kp Q                &kp W            &kp E                           &kp R              &kp T        &kp Y  &kp U               &kp I                 &kp O             &kp P                         &kp BACKSPACE
-&kt TAB       &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_COMMAND LEFT_COMMAND  &HML LEFT_SHIFT F  &kp G        &kp H  &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMICOLON  &none
-&kp CAPSLOCK  &kp Z                &kp X            &kp C                           &kp V              &kp B        &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH                     &none
-                                                    &mo 2                           &kp BACKSPACE      &kp SPACE    &mo 3  &mo 1               &mo 4
+&kp ESCAPE    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp Y  &kp U               &kp I                 &kp O             &kp P                         &kp BACKSPACE
+&kt TAB       &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F  &kp G        &kp H  &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMICOLON  &none
+&kp CAPSLOCK  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH                     &none
+                                                    &mo 2                &kp BACKSPACE      &kp SPACE    &mo 3  &mo 1               &mo 4
             >;
         };
 

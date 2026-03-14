@@ -9,13 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define ALPHA 0
-#define UPPER 1
-#define NAVIGATION 2
-#define NAVIGATION_UPPER 3
-#define SYMBOL 4
-#define SYMBOL_UPPER 5
-#define NUMBER 6
-#define CONNECT 7
+#define SYMBOL 1
+#define NUMBER 2
+#define NAV 3
+#define CONNECT 4
 
 // corne keymap has 6 columns, the last column is optional and is not present on my keyboard
 // each row starts with a &none and ends with a &none to reflect the fact that these columns do not exist
@@ -64,7 +61,7 @@
 &kp ESCAPE    &kp Q                &kp W            &kp E                &kp R              &kp T        &kp Y  &kp U               &kp I                 &kp O             &kp P                         &kp BACKSPACE
 &kt TAB       &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F  &kp G        &kp H  &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMICOLON  &kp RETURN
 &kp CAPSLOCK  &kp Z                &kp X            &kp C                &kp V              &kp B        &kp N  &kp M               &kp COMMA             &kp DOT           &kp SLASH                     &none
-                                                    &mo 2                &kp BACKSPACE      &kp SPACE    &mo 3  &mo 1               &mo 4
+                                                    &mo NUMBER                &kp BACKSPACE      &kp SPACE    &mo NAV  &mo SYMBOL               &mo CONNECT
             >;
         };
 

@@ -133,27 +133,4 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        navigation_upper_layer {
-            if-layers = <5 4>;
-            then-layer = <5>;
-        };
-
-        symbol_upper_layer {
-            if-layers = <5 2>;
-            then-layer = <1>;
-        };
-
-        number_layer {
-            if-layers = <4 2>;
-            then-layer = <2>;
-        };
-
-        connection_layer {
-            if-layers = <5 4 2>;
-            then-layer = <8>;
-        };
-    };
 };

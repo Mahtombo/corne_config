@@ -131,38 +131,6 @@
                      &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
-
-        alpha_upper_layer {
-            // ---------------------------------------------------------------------------------------------------------
-            // |     |     |     |     |     |                                           |     |     |     |     |     |
-            // |     |     |     |     |     |                                           |     |     |     |     |     |
-            // |     |     |     |     |     |                                           |     |     |  ?  |  !  | SHF+ENT |
-            //                   |     |     |     |                               |     |     |     |
-            // ---------------------------------------------------------------------------------------------------------
-
-            bindings = <
-&kp ESCAPE  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)    &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp BACKSPACE
-&kp TAB     &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)    &kp LS(M)  &kp LS(N)  &kp LS(E)  &kp LS(I)  &none      &kp LS(ENTER)
-&none       &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)    &kp LS(K)  &kp LS(H)  &kp QMARK  &kp EXCL   &none      &none
-                                  &trans     &trans     &trans       &trans     &trans     &trans
-            >;
-        };
-
-        navigation_upper_layer {
-            // ---------------------------------------------------------------------------------------------------------
-            // |-----|-----|-----|-----|-----|                                           |-----| PLY | VUP |-----|-----|
-            // |-----|-----|-----|-----|-----|                                           |-----| PRV | VDN | NXT |-----|
-            // |-----|-----|-----|-----|-----|                                           |-----|-----|-----|-----|-----|
-            //                   |     |     |     |                               |     |     |     |
-            // ---------------------------------------------------------------------------------------------------------
-
-            bindings = <
-&none  &none  &none  &none   &none   &none     &none   &kp C_PP    &kp LS(C_VOL_UP)  &none       &none  &none
-&none  &none  &none  &none   &none   &none     &none   &kp C_PREV  &kp LS(C_VOL_DN)  &kp C_NEXT  &none  &none
-&none  &none  &none  &none   &none   &none     &none   &none       &none             &none       &none  &none
-                     &trans  &trans  &trans    &trans  &trans      &trans
-            >;
-        };
     };
 
     conditional_layers {
@@ -170,7 +138,7 @@
 
         navigation_upper_layer {
             if-layers = <5 4>;
-            then-layer = <6>;
+            then-layer = <5>;
         };
 
         symbol_upper_layer {

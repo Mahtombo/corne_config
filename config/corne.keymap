@@ -75,7 +75,7 @@
 
             bindings = <
 &none  &kp AT_SIGN        &kp EXCL  &kp LBRC  &kp RBRC       &kp DLLR     &kp STAR   &kp EQUAL      &kp PLUS  &kp MINUS       &none      &none
-&none  &kp SINGLE_QUOTE   &sk AMPS  &kp LPAR  &kp RPAR       &kp HASH     &kp SLASH  &kp LT         &kp GT    &kp UNDERSCORE  &kp GRAVE  &none
+&none  &kp SINGLE_QUOTE   &kp AMPS  &kp LPAR  &kp RPAR       &kp HASH     &kp SLASH  &kp LT         &kp GT    &kp UNDERSCORE  &kp GRAVE  &none
 &none  &kp DOUBLE_QUOTES  &kp PIPE  &kp LBKT  &kp RBKT       &kp PRCNT    &kp COLON  &kp BACKSLASH  &none     &none           &kp TILDE  &none
                                     &trans    &kp BACKSPACE  &trans       &trans     &none          &trans
             >;

@@ -74,10 +74,10 @@
             // ---------------------------------------------------------------------------------------------------------
 
             bindings = <
-&trans  &kp GRAVE          &kp EXCL  &kp LBKT  &kp LT       &kp ASTERISK      &kp SLASH    &kp GT         &kp RBKT  &kp CARET  &trans            &trans
-&trans  &kp DOUBLE_QUOTES  &kp AMPS  &kp LPAR  &kp PLUS     &kp UNDERSCORE    &kp DOLLAR   &kp MINUS      &kp RPAR  &kp EQUAL  &kp SINGLE_QUOTE  &trans
-&trans  &kp TILDE          &kp PIPE  &kp LBRC  &kp PERCENT  &kp HASH          &kp AT_SIGN  &kp BACKSLASH  &kp RBRC  &none      &trans            &trans
-                                     &trans    &trans       &trans            &trans       &trans         &trans
+&trans  &kp GRAVE          &kp EXCL  &kp LBKT  &kp PLUS       &kp ASTERISK      &kp SLASH    &kp GT         &kp RBKT  &kp CARET  &trans            &trans
+&trans  &kp DOUBLE_QUOTES  &kp AMPS  &kp LPAR  &kp LESS_THAN  &kp UNDERSCORE    &kp DOLLAR   &kp MINUS      &kp RPAR  &kp EQUAL  &kp SINGLE_QUOTE  &trans
+&trans  &kp TILDE          &kp PIPE  &kp LBRC  &kp PERCENT    &kp HASH          &kp AT_SIGN  &kp BACKSLASH  &kp RBRC  &none      &trans            &trans
+                                     &trans    &trans         &trans            &trans       &trans         &trans
             >;
         };
 
@@ -90,19 +90,19 @@
             // ---------------------------------------------------------------------------------------------------------
 
             bindings = <
-&none  &none  &none  &none   &none   &kp PSCRN    &none   &kp N7  &kp N8  &kp N9  &none   &trans
-&none  &none  &none  &none   &none   &none        &none   &kp N4  &kp N5  &kp N6  &kp N0  &trans
-&none  &none  &none  &none   &none   &none        &none   &kp N1  &kp N2  &kp N3  &none   &trans
+&none  &none  &none  &none   &none   &kp PSCRN    &none   &kp N7  &kp N8  &kp N9  &none  &trans
+&none  &none  &none  &none   &none   &none        &none   &kp N4  &kp N5  &kp N6  &none  &trans
+&none  &none  &none  &none   &none   &none        &none   &kp N1  &kp N2  &kp N3  &none  &trans
                      &trans  &trans  &trans       &kp N0  &trans  &trans
             >;
         };
 
         nav_media_layer {
             bindings = <
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans      &kp HOME           &kp END          &trans           &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LEFT    &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans           &trans  &trans
-                        &trans  &trans  &trans     &trans      &trans             &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans             &kp HOME         &kp END       &trans           &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp LEFT           &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV    &kp C_NEXT       &trans  &trans
+                        &trans  &trans  &trans     &trans             &trans           &trans
             >;
         };
 

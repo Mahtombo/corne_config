@@ -50,14 +50,36 @@
         select_area_screenshot: select_area_screenshot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND>;
+
             label = "SELECT_AREA_SCREENSHOT";
         };
 
         screenshot_menu: screenshot_menu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp N5>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND>,
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp N5>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND>;
+
             label = "SCREENSHOT_MENU";
         };
     };
@@ -90,9 +112,9 @@
             // ---------------------------------------------------------------------------------------------------------
 
             bindings = <
-&trans  &kp GRAVE          &kp EXCL  &kp LBKT  &kp LESS_THAN  &kp ASTERISK      &kp SLASH    &kp GT         &kp RBKT  &kp CARET  &trans            &trans
+&trans  &kp GRAVE          &kp EXCL  &kp LBRC  &kp LESS_THAN  &kp ASTERISK      &kp SLASH    &kp GT         &kp RBRC  &kp CARET  &trans            &trans
 &trans  &kp DOUBLE_QUOTES  &kp AMPS  &kp LPAR  &kp PLUS       &kp UNDERSCORE    &kp DOLLAR   &kp MINUS      &kp RPAR  &kp EQUAL  &kp SINGLE_QUOTE  &trans
-&trans  &kp TILDE          &kp PIPE  &kp LBRC  &kp PERCENT    &kp HASH          &kp AT_SIGN  &kp BACKSLASH  &kp RBRC  &none      &trans            &trans
+&trans  &kp TILDE          &kp PIPE  &kp LBKT  &kp PERCENT    &kp HASH          &kp AT_SIGN  &kp BACKSLASH  &kp RBKT  &none      &trans            &trans
                                      &trans    &trans         &trans            &trans       &trans         &trans
             >;
         };
